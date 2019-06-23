@@ -1,7 +1,7 @@
 java_library(
-    name = "jackson_core",
+    name = "disruptor",
     exports = [
-        "//external:jar/com/fasterxml/jackson/core/jackson_core"
+        "//external:jar/com/lmax/disruptor"
     ],
     visibility = [
         "//3rdparty/jvm:__subpackages__"

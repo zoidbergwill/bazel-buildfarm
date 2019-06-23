@@ -1,7 +1,7 @@
 java_library(
     name = "okhttp",
     exports = [
-        "//external:jar/com/squareup/okhttp/okhttp"
+        "//external:jar/com/squareup/okhttp3/okhttp"
     ],
     runtime_deps = [
         "//3rdparty/jvm/com/squareup/okio:okio"
